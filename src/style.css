@@ -106,3 +106,12 @@ p {
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
+
+@media (max-width: 600px) {
+  .container {
+    text-align: center;
+  }
+  .about-heading {
+    font-size: 30px;
+  }
+}
